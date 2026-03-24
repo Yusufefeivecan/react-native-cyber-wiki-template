@@ -1,50 +1,48 @@
-# Welcome to your Expo app 👋
+Markdown
+# ⚡ CyberWiki - React Native (Expo) Template
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+<p align="center">
+  <img src="https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+  <img src="https://img.shields.io/badge/Expo-1B1F23?style=for-the-badge&logo=expo&logoColor=white" />
+  <img src="https://img.shields.io/badge/Cyberpunk_Theme-000000?style=for-the-badge&logo=cyberpunk2077&logoColor=FCEE0A" />
+</p>
 
-## Get started
+A fully functional, open-source React Native template built with Expo Router. Designed specifically for creating dynamic character databases, game wikis, or entity trackers with a striking Neon/Cyberpunk aesthetic.
 
-1. Install dependencies
+## ✨ Features
 
+* **Neon UI & Typography:** Integrated "Orbitron" font and custom linear gradients (`expo-linear-gradient`) for a true cyberpunk feel.
+* **Dynamic List Page (`explore.tsx`):** Fetches data seamlessly, featuring search functionality, sorting mechanisms (by PWR, SPD, MGC), and smooth animations.
+* **Detailed Entity View (`character/[id].tsx`):** Segmented, cube-style stat bars (PWR, DEF, MGC, SPD) with visual progression, biography section, and favoriting system.
+* **Creation Engine (`create.tsx`):** Built-in form to add custom entities/characters directly to the database.
+* **Modern Navigation:** Fully utilizing Expo Router for smooth screen transitions.
+
+## 🚀 Getting Started
+
+To get a local copy up and running, follow these simple steps:
+
+### Prerequisites
+
+* Node.js installed
+* Expo CLI
+
+### Installation
+
+1. Clone the repo:
    ```bash
-   npm install
-   ```
+   git clone [https://github.com/Josephjj/react-native-cyber-wiki-template.git](https://github.com/Josephjj/react-native-cyber-wiki-template.git)
+Navigate to the directory:
 
-2. Start the app
+Bash
+cd react-native-cyber-wiki-template
+Install dependencies:
 
-   ```bash
-   npx expo start
-   ```
+Bash
+npm install
+Start the application:
 
-In the output, you'll find options to open the app in a
+Bash
+npx expo start
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+🤝 Contributing
+Contributions, issues, and feature requests are welcome! Feel free to check the issues page.
